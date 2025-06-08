@@ -20,6 +20,7 @@ git clone https://github.com/ahmetraufoktay/yolo-stop-sign-training
 cd yolo-stop-sign-training
 ```
 
+
 2. **Conda ortamını oluşturun ve etkinleştirin**
 
 ```bash
@@ -27,16 +28,17 @@ conda create -n yolov11_custom python=3.11 -y
 conda activate yolov11_custom
 ```
 
+
 3. **Ultralytics'i ve CUDA Destekli PyTorch'u yükleyin**
 
-**_ULTRALYTICS_**:
+    ULTRALYTICS:
 
 ```bash
 pip install ultralytics
 ```
 
 
-**_PYTORCH_**:
+    PYTORCH:
 
 * Windows Kullanıyorsanız
 
@@ -50,13 +52,16 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip3 install torch torchvision torchaudio
 ```
 
+
 4. **Test Etmek İstediğiniz Resimleri \test\ klasörüne atın**
+
 
 5. **Predict.py'yi çalıştırın**
 
 ```bash
 python predict.py
 ```
+
 
 ## Test Sonuçları
 
